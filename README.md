@@ -11,11 +11,18 @@ cd miro-vision-toolbox
 pip install -e .
 ```
 
+## Deployment (dev only)
 ### Tests
 tests are included in each function's docstring and can be ran using Python's [`doctest`](https://realpython.com/python-project-documentation-with-mkdocs/#write-examples-and-test-them-using-doctest). To run tests on `toolbox.img_utils`:
 
 ```
-python -m doctest toolbox.img_utils.py
+python -m doctest -v toolbox/img_utils.py
+```
+To learn more about `doctest` see [here](https://realpython.com/python-doctest/)
+### Documentation Generation
+Docs should be available [here (github page)](https://miroai.github.io/miro-vision-toolbox/) after running this command:
+```
+mkdocs gh-deploy
 ```
 
 ### Resource

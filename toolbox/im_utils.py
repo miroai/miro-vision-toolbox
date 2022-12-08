@@ -3,9 +3,9 @@
 This module allows the user to use several of the most commonly used image handling functions at Miro AI
 
 Examples:
-	>>> from toolbox.img_utils import get_pil_im
-	>>> get_pil_im("https://miro-ps-bucket-copy.s3.us-west-2.amazonaws.com/storage/jho/web_asset/logo/miro_logo_white.png").size
-	(1400,494)
+	>>> from toolbox.im_utils import get_pil_im
+	>>> get_pil_im("https://random.imagecdn.app/500/150").size
+	(500, 150)
 
 This module contains the following functions:
 
@@ -30,8 +30,8 @@ def get_pil_im(fp_url_nparray: Union[str, np.ndarray]) -> Union[Image.Image, Non
 		ValueError: An error when fp_url_nparray cannot be converted into an image
 
 	Examples:
-		>>> get_pil_im("https://miro-ps-bucket-copy.s3.us-west-2.amazonaws.com/storage/jho/web_asset/logo/miro_logo_white.png").size
-		(1400,494)
+		>>> get_pil_im("https://random.imagecdn.app/500/150").size
+		(500, 150)
 	'''
 	import urllib.request as urllib
 	from urllib.error import HTTPError

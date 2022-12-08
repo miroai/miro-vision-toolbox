@@ -2,5 +2,5 @@
 
 Modules exported by this package:
 
-- `img_utils`: Provide several Image handling utility functions.
+- `im_utils`: Provide several Image handling utility functions.
 """
