@@ -12,7 +12,9 @@ setup(
     install_requires=[
         'numpy>=1.20.1',
         'Pillow>=8.1.2',
-        'validators>=0.18.2'
+        'validators>=0.18.2',
+        'bbox-visualizer>=0.1.0',
+        'opencv-python-headless==4.1.0.25',
     ],
     #entry_points=[dict] # if your package is intended to be ran as a CLI tool
     )
