@@ -32,7 +32,10 @@ your use case by looking at the different pages.
 
 ## Acknowledgements
 
-I want to thank my house plants for providing me with
-a negligible amount of oxygen each day. Also, I want
-to thank the sun for providing more than half of their
-nourishment free of charge.
+> If you wish to make an apple pie from scratch, you must first invent the universe
+>
+> ~ Carl Sagan
+
+This package would not have existed without the amazing community of Pythonistas and Computer-Vision enthusiasts. References are cited throughout each function's documentation. This package in turn is our contribution back to the community :heart:
+
+Thank you :pray_tone3: and let's build more beautiful things together!

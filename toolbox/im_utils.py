@@ -1,6 +1,7 @@
 """Provide serveral Image Utility functions.
 
-This module allows the user to use several of the most commonly used image handling functions at Miro AI
+This module allows the user to use several of the most commonly used image handling functions at [Miro AI](https://miro.io/).
+Some functions are documented further in the [Example section](https://miroai.github.io/miro-vision-toolbox/examples/im_utils/).
 
 Examples:
 	>>> from toolbox.im_utils import get_pil_im
