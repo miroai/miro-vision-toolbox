@@ -2,13 +2,20 @@ site_name: Miro Vision Toolbox Documentation
 
 theme:
   name: "material"
+  palette:
+    scheme: slate
 
 plugins:
   - mkdocstrings
+  - mkdocs-jupyter:
+      ignore_h1_titles: True
+      theme: dark
 
 nav:
   - Start Here: index.md
   - tutorials.md
   - How to Guides: how-to-guides.md
   - reference.md
+  - Examples:
+      - Image Utilities Examples: examples/im_utils.ipynb
   - explanation.md

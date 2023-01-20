@@ -4,4 +4,4 @@ reference for the technical implementation of the
 `toolbox` project code.
 
 ## Image Utilities
-::: toolbox.img_utils
+::: toolbox.im_utils
