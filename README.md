@@ -1,5 +1,5 @@
 # miro-vision-toolbox
-[MiroAI](https://miro.io/)'s most commonly used computer-vision related python functions can now be at your finger tips!
+[MiroAI](https://miro.io/)'s most commonly used computer-vision related python functions now at your fingertips!
 
 ## Examples
 
